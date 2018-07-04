@@ -1,0 +1,48 @@
+
+(object Petal
+    version    	50
+    _written   	"Rose 2006.0.0.060314"
+    charSet    	134)
+
+(object Class_Category "Actors"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"3518CBC9026C"
+    documentation 	
+|All Actors in the system are contained in this package.   This is both as a way to organize the model, making it easier to understand, and to provide a way to manage the actors in a single configuration item. 
+|
+|If different individuals are responsible for different actors and their related artifacts, the actors should be organized into their own packages and placed under separate configuration control.
+    
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object Class "<Actor Name>"
+	    quid       	"353D5816026C"
+	    documentation 	
+|<<The brief description of the actor is entered here.  For guidance on what should go in this description, see the following Rational Unified Process references:
+|
+|- Activity: Find Actors and Use Cases
+|- Guidelines: Actor>>
+	    
+	    stereotype 	"Actor")
+	(object Class "教育部考试中心"
+	    quid       	"5B3C7E3000AD"
+	    stereotype 	"Actor")
+	(object Class "四川省教育考试院"
+	    quid       	"5B3C7E4B01A3"
+	    stereotype 	"Actor")
+	(object Class "市州考试办"
+	    quid       	"5B3C7E84017D"
+	    stereotype 	"Actor")
+	(object Class "县区考试办"
+	    quid       	"5B3C7E980274"
+	    stereotype 	"Actor")
+	(object Class "高校自考办"
+	    quid       	"5B3C7EA4034B"
+	    stereotype 	"Actor")
+	(object Class "助学点"
+	    quid       	"5B3C7EB301D2"
+	    stereotype 	"Actor")
+	(object Class "用户"
+	    quid       	"5B3C7E78026D"
+	    stereotype 	"Actor"))
+    logical_presentations 	(list unit_reference_list))
