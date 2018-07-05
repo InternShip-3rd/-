@@ -416,7 +416,7 @@
 					    (object Class_Category "考点管理"
 						is_unit    	TRUE
 						is_loaded  	FALSE
-						file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\考点管理.cat"
+						file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\考点管理.cat"
 						quid       	"5B3C75470091")
 					    (object Class_Category "考点开考专业管理"
 						is_unit    	TRUE
@@ -1045,7 +1045,7 @@
 					supplier   	@16
 					vertices   	(list Points
 					    (868, 976)
-					    (1152, 976))
+					    (1154, 976))
 					line_style 	0))))))))
 	logical_presentations 	(list unit_reference_list
 	    (object UseCaseDiagram "Main"

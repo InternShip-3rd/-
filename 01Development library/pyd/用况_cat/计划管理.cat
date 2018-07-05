@@ -7,7 +7,6 @@
 (object Class_Category "计划管理"
     is_unit    	TRUE
     is_loaded  	TRUE
-    quid       	"35C0EC150366"
     documentation 	"四川省高等教育自学考试管理系统子模块"
     exportControl 	"Public"
     logical_models 	(list unit_reference_list
@@ -136,7 +135,7 @@
 				location   	(448, 1184)
 				anchor_loc 	1
 				nlines     	2
-				max_width  	325
+				max_width  	331
 				justify    	0
 				label      	"<Actor Name>")
 			    icon       	"Actor"
@@ -190,7 +189,7 @@
 				    supplier   	@3
 				    vertices   	(list Points
 					(741, 1024)
-					(978, 1024))
+					(976, 1024))
 				    line_style 	0)
 				(object RoleView "" @8
 				    Parent_View 	@5
@@ -274,18 +273,66 @@
 		    supplier   	"Use Case View::Use-Case Model::Actors::<Actor Name>"
 		    quidu      	"353D5816026C")))
 	(object Class_Category "专业计划管理"
-	    is_unit    	TRUE
-	    is_loaded  	FALSE
-	    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\专业计划管理.cat"
-	    quid       	"5B3C74F603D4")
+	    quid       	"5B3C74F603D4"
+	    documentation 	"计划管理子模块"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list
+		(object Class_Category "专业管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\用况_cat\\专业管理.cat"
+		    quid       	"5B3C756F0362")
+		(object Class_Category "课程及教材管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\课程及教材管理.cat"
+		    quid       	"5B3C75140130")
+		(object Class_Category "专业课程管理"
+		    quid       	"5B3C752102F8"
+		    documentation 	"计划管理子模块"
+		    exportControl 	"Public"
+		    logical_models 	(list unit_reference_list)
+		    logical_presentations 	(list unit_reference_list))
+		(object Class_Category "课程收费标准管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\课程收费标准管理.cat"
+		    quid       	"5B3C752C02C8")
+		(object Class_Category "毕业条件管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\毕业条件管理.cat"
+		    quid       	"5B3C7538038A")
+		(object Class_Category "考点管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\考点管理.cat"
+		    quid       	"5B3C75470091")
+		(object Class_Category "考点开考专业管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\考点开考专业管理.cat"
+		    quid       	"5B3C754F0108"))
+	    logical_presentations 	(list unit_reference_list))
 	(object Class_Category "计划考次管理"
 	    is_unit    	TRUE
 	    is_loaded  	FALSE
 	    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\计划考次管理.cat"
 	    quid       	"5B3C75BF005C")
 	(object Class_Category "考试计划管理"
-	    is_unit    	TRUE
-	    is_loaded  	FALSE
-	    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\考试计划管理.cat"
-	    quid       	"5B3C75CF0058"))
+	    quid       	"5B3C75CF0058"
+	    documentation 	"计划管理子模块"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list
+		(object Class_Category "开考专业管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\开考专业管理.cat"
+		    quid       	"5B3C761C03C2")
+		(object Class_Category "开考课程管理"
+		    is_unit    	TRUE
+		    is_loaded  	FALSE
+		    file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\开考课程管理.cat"
+		    quid       	"5B3C76240131"))
+	    logical_presentations 	(list unit_reference_list)))
     logical_presentations 	(list unit_reference_list))

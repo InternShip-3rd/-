@@ -8,6 +8,7 @@
     is_unit    	TRUE
     is_loaded  	TRUE
     quid       	"5B3C752C02C8"
+    documentation 	"计划管理子模块"
     exportControl 	"Public"
     logical_models 	(list unit_reference_list)
     logical_presentations 	(list unit_reference_list))
