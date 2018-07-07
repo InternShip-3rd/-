@@ -245,7 +245,7 @@
 							    location   	(448, 1184)
 							    anchor_loc 	1
 							    nlines     	2
-							    max_width  	325
+							    max_width  	328
 							    justify    	0
 							    label      	"<Actor Name>")
 							icon       	"Actor"
@@ -885,7 +885,7 @@
 				    location   	(528, 1136)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	325
+				    max_width  	328
 				    justify    	0
 				    label      	"<Actor Name>")
 				icon       	"Actor"
@@ -1383,7 +1383,7 @@
 				    supplier_quidu 	"5B3F1F910361"
 				    client     	"Logical View::Analysis Model::登录::State/Activity Model::验证用户名和密码"
 				    client_quidu 	"5B3F1F8D03A2"
-				    Event      	(object Event "通过验证"
+				    Event      	(object Event "验证通过"
 					quid       	"5B3F1FCB01CE")
 				    sendEvent  	(object sendEvent
 					quid       	"5B3F1FCB01D0"))
@@ -1575,9 +1575,9 @@
 						    default_color 	TRUE)
 						anchor_loc 	1
 						nlines     	1
-						max_width  	450
+						max_width  	156
 						justify    	0
-						label      	"通过验证"
+						label      	"验证通过"
 						pctDist    	0.500000
 						height     	45
 						orientation 	0)
@@ -1666,7 +1666,7 @@
 				    quid       	"5B3F61CA017B")
 				(object ActivityState "进入计划管理界面"
 				    quid       	"5B3F620A0384")
-				(object ActivityState "打印所有开考专业及其对应课程"
+				(object ActivityState "选中专业并设置对应的实践课程"
 				    quid       	"5B3F62300145"))
 			    partitions 	(list Partitions)
 			    objects    	(list Objects)
@@ -1730,7 +1730,7 @@
 					quid       	"5B3F61B90158"))
 				(object State_Transition
 				    quid       	"5B3F62B40266"
-				    supplier   	"Logical View::Analysis Model::设置公共课程::State/Activity Model2::打印所有开考专业及其对应课程"
+				    supplier   	"Logical View::Analysis Model::设置公共课程::State/Activity Model2::选中专业并设置对应的实践课程"
 				    supplier_quidu 	"5B3F62300145"
 				    client     	"Logical View::Analysis Model::设置公共课程::State/Activity Model2::进入专业计划管理界面"
 				    client_quidu 	"5B3F61CA017B"
@@ -1740,7 +1740,7 @@
 				    quid       	"5B3F62B701C6"
 				    supplier   	"$UNNAMED$6"
 				    supplier_quidu 	"5B3F60D203DF"
-				    client     	"Logical View::Analysis Model::设置公共课程::State/Activity Model2::打印所有开考专业及其对应课程"
+				    client     	"Logical View::Analysis Model::设置公共课程::State/Activity Model2::选中专业并设置对应的实践课程"
 				    client_quidu 	"5B3F62300145"
 				    sendEvent  	(object sendEvent
 					quid       	"5B3F62B701C9"))
@@ -1981,7 +1981,7 @@
 					    height     	130
 					    annotation 	1
 					    autoResize 	TRUE)
-					(object ActivityStateView "打印所有开考专业及其对应课程" @59
+					(object ActivityStateView "选中专业并设置对应的实践课程" @59
 					    Parent_View 	@47
 					    location   	(544, 1600)
 					    font       	(object Font
@@ -2001,7 +2001,7 @@
 						nlines     	2
 						max_width  	599
 						justify    	0
-						label      	"打印所有开考专业及其对应课程")
+						label      	"选中专业并设置对应的实践课程")
 					    icon_style 	"Icon"
 					    line_color 	3342489
 					    fill_color 	13434879
