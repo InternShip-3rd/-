@@ -8,7 +8,122 @@
     is_unit    	TRUE
     is_loaded  	TRUE
     quid       	"5B3C752C02C8"
-    documentation 	"计划管理子模块"
     exportControl 	"Public"
-    logical_models 	(list unit_reference_list)
-    logical_presentations 	(list unit_reference_list))
+    logical_models 	(list unit_reference_list
+	(object Class "NewClass"
+	    quid       	"5B401CFE00CF"
+	    stereotype 	"Actor")
+	(object UseCase "设置课程收费标准"
+	    quid       	"5B401D12020F")
+	(object Association "$UNNAMED$0"
+	    quid       	"5B401D1A0276"
+	    roles      	(list role_list
+		(object Role "$UNNAMED$1"
+		    quid       	"5B401D1B0033"
+		    supplier   	"Use Case View::Use-Case Model::Use Cases::计划管理::专业计划管理::课程收费标准管理::设置课程收费标准"
+		    quidu      	"5B401D12020F")
+		(object Role "$UNNAMED$2"
+		    quid       	"5B401D1B0035"
+		    supplier   	"Use Case View::Use-Case Model::Actors::四川省教育考试院"
+		    quidu      	"5B3C7E4B01A3"))))
+    logical_presentations 	(list unit_reference_list
+	(object UseCaseDiagram "课程收费标准管理用况图"
+	    quid       	"5B401CF1025C"
+	    title      	"课程收费标准管理用况图"
+	    zoom       	100
+	    max_height 	28350
+	    max_width  	21600
+	    origin_x   	0
+	    origin_y   	0
+	    items      	(list diagram_item_list
+		(object ClassView "Class" "Use Case View::Use-Case Model::Actors::四川省教育考试院" @1
+		    ShowCompartmentStereotypes 	TRUE
+		    IncludeAttribute 	TRUE
+		    IncludeOperation 	TRUE
+		    location   	(608, 912)
+		    font       	(object Font
+			size       	9
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@1
+			location   	(608, 1072)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	335
+			justify    	0
+			label      	"四川省教育考试院")
+		    icon       	"Actor"
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    quidu      	"5B3C7E4B01A3"
+		    annotation 	8
+		    autoResize 	TRUE)
+		(object UseCaseView "Use Case View::Use-Case Model::Use Cases::计划管理::专业计划管理::课程收费标准管理::设置课程收费标准" @2
+		    location   	(1264, 912)
+		    font       	(object Font
+			size       	9
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    label      	(object ItemLabel
+			Parent_View 	@2
+			location   	(1264, 1050)
+			anchor_loc 	1
+			nlines     	2
+			max_width  	630
+			justify    	0
+			label      	"设置课程收费标准")
+		    icon_style 	"Icon"
+		    line_color 	3342489
+		    fill_color 	13434879
+		    quidu      	"5B401D12020F"
+		    height     	118)
+		(object AssociationViewNew "$UNNAMED$0" @3
+		    location   	(908, 912)
+		    font       	(object Font
+			size       	9
+			face       	"Arial"
+			bold       	FALSE
+			italics    	FALSE
+			underline  	FALSE
+			strike     	FALSE
+			color      	0
+			default_color 	TRUE)
+		    stereotype 	TRUE
+		    line_color 	3342489
+		    quidu      	"5B401D1A0276"
+		    roleview_list 	(list RoleViews
+			(object RoleView "$UNNAMED$1" @4
+			    Parent_View 	@3
+			    location   	(300, 0)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"5B401D1B0033"
+			    client     	@3
+			    supplier   	@2
+			    vertices   	(list Points
+				(908, 912)
+				(1152, 912))
+			    line_style 	0)
+			(object RoleView "$UNNAMED$2" @5
+			    Parent_View 	@3
+			    location   	(300, 0)
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"5B401D1B0035"
+			    client     	@3
+			    supplier   	@1
+			    vertices   	(list Points
+				(908, 912)
+				(665, 912))
+			    line_style 	0)))))))
