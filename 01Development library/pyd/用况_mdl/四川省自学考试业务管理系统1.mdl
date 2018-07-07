@@ -97,7 +97,7 @@
 		    (object Class_Category "Actors"
 			is_unit    	TRUE
 			is_loaded  	FALSE
-			file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\Actors.cat"
+			file_name  	"G:\\实习\\四川省自学考试业务管理系统\\01Development library\\pyd\\用况_cat\\Actors.cat"
 			quid       	"3518CBC9026C")
 		    (object Class_Category "Use Cases"
 			quid       	"34E37E430280"
@@ -245,7 +245,7 @@
 							    location   	(448, 1184)
 							    anchor_loc 	1
 							    nlines     	2
-							    max_width  	331
+							    max_width  	325
 							    justify    	0
 							    label      	"<Actor Name>")
 							icon       	"Actor"
@@ -892,7 +892,7 @@
 				    location   	(528, 1136)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	331
+				    max_width  	325
 				    justify    	0
 				    label      	"<Actor Name>")
 				icon       	"Actor"
